@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edit_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your post description here"
+        android:maxLines="5"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_description"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/btn_bg"
+        android:text="Save"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
